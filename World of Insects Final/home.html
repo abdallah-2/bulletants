@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Bullet Ants</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="facts.html">Facts</a></li>
+                <li><a href="map.html">Map</a></li>
+                <li><a href="moreants.html">More Ants</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="sources.html">Sources</a></li>
+            </ul>
+        </nav>
+        <h1 class="header-title">Welcome to the World of Bullet Ants</h1>
+        <p class="header-subtitle">Discover the Fascinating Lives of These Insects</p>
+    </header>
+    <section id="introduction">
+        <h2>About Bullet Ants</h2>
+        <p>Bullet ants (Paraponera clavata) are large, aggressive ants found in the rainforests of South America. They are known for their excruciatingly painful stings, which are said to feel like being shot, earning them the title of "bullet ant."</p>
+        <p>Despite their painful sting, these ants play an essential role in the rainforest ecosystem, and their fascinating behavior and characteristics make them a subject of scientific interest and curiosity.</p>
+    </section>
+
+    <section id="habitat">
+        <h2>Habitat</h2>
+        <p>Bullet ants are primarily found in the tropical rainforests of South America, including countries like Brazil, Venezuela, and Colombia. They thrive in the dense vegetation, making their nests in the trees and foraging on the forest floor.</p>
+        <p>Their habitat is characterized by high humidity and abundant plant life, providing them with a constant supply of food and water.</p>
+    </section>
+
+    <section id="behavior">
+        <h2>Behavior</h2>
+        <p>Bullet ants are known for their solitary nature. Unlike many ant species, they do not form large colonies. Each ant lives independently, with the queen being the largest and most dominant member.</p>
+        <p>Their behavior is highly territorial, and they fiercely defend their nests. Bullet ants are also known for their distinct foraging patterns and their remarkable ability to capture prey and transport it back to their nests.</p>
+    </section>
+
+    <section id="sting">
+        <h2>Sting</h2>
+        <p>The sting of a bullet ant is considered one of the most painful insect stings in the world. The venomous bite can cause intense, throbbing pain that can last for hours. It's so painful that it is used as an initiation ritual in some indigenous tribes.</p>
+        <p>The pain is attributed to a potent venom that contains a neurotoxin. Despite the agony, the sting is rarely life-threatening to humans.</p>
+    </section>
+
+    <section id="life-cycle">
+        <h2>Life Cycle</h2>
+        <p>The life cycle of bullet ants consists of several stages, including egg, larva, pupa, and adult. The queen ant is responsible for laying eggs, and she is the only reproductive female in the nest.</p>
+        <p>Worker ants are responsible for foraging, nest maintenance, and defending the colony. Male ants are involved in mating with the queen. The life cycle of a bullet ant typically takes several months to complete.</p>
+    </section>
+
+    <section id="predators">
+        <h2>Natural Predators</h2>
+        <p>Despite their painful sting, bullet ants have several natural predators, including some bird species and amphibians. Predatory insects like spiders and some larger ant species may also pose a threat to bullet ants.</p>
+        <p>The ants have developed various defensive behaviors to protect themselves from these predators, such as aggressive stinging and cooperation among nest members.</p>
+    </section>
+
+    <section id="role-in-ecosystem">
+        <h2>Role in the Ecosystem</h2>
+        <p>Bullet ants play a crucial role in their rainforest ecosystem. They are omnivores and feed on a variety of food sources, including nectar, small invertebrates, and fruit. This diverse diet makes them important pollinators for some plant species.</p>
+        <p>Their presence also helps control the population of other insects, maintaining ecological balance in the rainforest.</p>
+    </section>
+
+    <section id="conservation">
+        <h2>Conservation Status</h2>
+        <p>The conservation status of bullet ants is not well-documented. However, the destruction of their natural habitat due to deforestation and human encroachment poses a significant threat to their population.</p>
+        <p>Efforts to protect the rainforest and preserve the habitat of bullet ants indirectly contribute to their conservation.</p>
+    </section>
+
+    <hr>
+
+    <style>
+        .correct {
+            color: green;
+            font-weight: bold;
+        }
+
+        .wrong {
+            color: red;
+            font-weight: bold;
+        }
+
+        .quiz-button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .quiz-button:hover {
+            background-color: #0056b3;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .quiz-image {
+            max-width: 50%;
+        }
+    </style>
+    <section id="quiz" class="center">
+        <img src="quiz.png" alt="Quiz Image" class="quiz-image">
+        <section id="quiz">
+            <h2>Test Your Knowledge: Bullet Ants Quiz</h2>
+            <p>Answer the following questions to see how much you know about bullet ants.</p>
+            <div class="question">
+                <p>1. What is the scientific name for the bullet ant?</p>
+                <input type="radio" name="q1" value="a"> a) Paraponera clavata<br>
+                <input type="radio" name="q1" value="b"> b) Solenopsis invicta<br>
+                <input type="radio" name="q1" value="c"> c) Camponotus gigas<br>
+                <p class="feedback" id="feedback1"></p>
+            </div>
+            <div class="question">
+                <p>2. What is the primary habitat of bullet ants?</p>
+                <input type="radio" name="q2" value="a"> a) Desert<br>
+                <input type="radio" name="q2" value="b"> b) Rainforest<br>
+                <input type="radio" name="q2" value="c"> c) Tundra<br>
+                <p class="feedback" id="feedback2"></p>
+            </div>
+            <div class="question">
+                <p>3. What is the distinctive characteristic of bullet ant stings?</p>
+                <input type="radio" name="q3" value="a"> a) It feels like a mild bee sting<br>
+                <input type="radio" name="q3" value="b"> b) It's painless<br>
+                <input type="radio" name="q3" value="c"> c) It's excruciatingly painful<br>
+                <p class="feedback" id="feedback3"></p>
+            </div>
+            <div class="question">
+                <p>4. What role do bullet ants play in the ecosystem?</p>
+                <input type="radio" name="q4" value="a"> a) They are important pollinators<br>
+                <input type="radio" name="q4" value="b"> b) They are predators of bullet ants<br>
+                <input type="radio" name="q4" value="c"> c) They have no ecological role<br>
+                <p class="feedback" id="feedback4"></p>
+            </div>
+
+            <div class="center">
+                <button class="quiz-button" id="submit-button">Submit Answers</button>
+                <button class="quiz-button" id="retry-button">Retry Quiz</button>
+            </div>
+            <p id="quiz-result"></p>
+        </section>
+    </section>
+
+    <script>
+        const answers = ["a", "b", "c", "a", "b"];
+        let attemptCount = 0;
+
+        document.getElementById("submit-button").addEventListener("click", gradeQuiz);
+        document.getElementById("retry-button").addEventListener("click", retryQuiz);
+
+        function gradeQuiz() {
+            const userAnswers = [
+                document.querySelector("input[name='q1']:checked"),
+                document.querySelector("input[name='q2']:checked"),
+                document.querySelector("input[name='q3']:checked"),
+                document.querySelector("input[name='q4']:checked"),
+            ];
+
+            for (let i = 0; i < answers.length; i++) {
+                const feedback = document.getElementById(`feedback${i + 1}`);
+                if (userAnswers[i] && userAnswers[i].value === answers[i]) {
+                    feedback.innerHTML = `<span class="correct">Correct! Well done.</span>`;
+                } else {
+                    feedback.innerHTML = `<span class="wrong">Wrong. The correct answer is: ${answers[i]}</span>`;
+                }
+            }
+
+            const quizResult = document.getElementById("quiz-result");
+            const correctAnswers = userAnswers.filter((answer, i) => answer && answer.value === answers[i]).length;
+            quizResult.innerText = `You got ${correctAnswers} out of 4 questions correct.`;
+
+            attemptCount++;
+            disableQuiz();
+        }
+
+        function retryQuiz() {
+            resetQuiz();
+        }
+
+        function disableQuiz() {
+            const inputs = document.querySelectorAll("input[type='radio']");
+            inputs.forEach(input => (input.disabled = true));
+        }
+
+        function resetQuiz() {
+            attemptCount = 0;
+            const inputs = document.querySelectorAll("input[type='radio']");
+            inputs.forEach(input => {
+                input.disabled = false;
+                input.checked = false;
+            });
+
+            const feedbacks = document.querySelectorAll(".feedback");
+            feedbacks.forEach(feedback => feedback.textContent = "");
+
+            const quizResult = document.getElementById("quiz-result");
+            quizResult.textContent = "";
+        }
+    </script>
+
+    <footer>
+        <p>&copy; Fall 2023 Abdallah Qureshi</p>
+        <p>Rutgers University - World of Insects</p>
+    </footer>
+
+
+    <script>
+        // Get the current page's filename (e.g., "history.html" or "index.html").
+        const currentPage = location.pathname.split('/').slice(-1)[0];
+    
+        // Define a function to highlight the active link.
+        function highlightActiveLink() {
+            const navLinks = document.querySelectorAll('nav ul li a');
+            navLinks.forEach((link) => {
+                if (link.getAttribute('href') === currentPage) {
+                    link.classList.add('active'); // You can define this class in your CSS.
+                }
+            });
+        }
+    
+        // Call the function to highlight the active link.
+        highlightActiveLink();
+    </script>
+
+
+</body>
+</html>

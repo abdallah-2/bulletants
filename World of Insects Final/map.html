@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map - Bullet Ants</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="facts.html">Facts</a></li>
+                <li><a href="map.html" class="active">Map</a></li> <!-- Add the "active" class for the current page -->
+                <li><a href="moreants.html">More Ants</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="sources.html">Sources</a></li>
+            </ul>
+        </nav>
+        <h1 class="header-title">Interactive Map</h1>
+        <p class="header-subtitle">Explore Rainforests in Central and South America</p>
+    </header>
+
+    <section id="map-explanation">
+        <h2>Explore Rainforest Locations</h2>
+        <p>This interactive map showcases the rainforests of Central and South America, where bullet ants are commonly found. Each pin on the map represents a specific rainforest location. You can click on the pins to view the names of the rainforests and learn more about these incredible ecosystems.</p>
+    </section>
+    
+    <section id="map-content">
+        <div id="map"></div>
+    </section>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="map.js"></script>
+
+
+    <hr class="thick-line">
+
+
+    
+
+
+    <section id="amazon-info">
+        <div class="section-container">
+            <h2>Amazon Rainforest</h2>
+
+                <p>The Amazon Rainforest, often referred to as the "Lungs of the Earth," is the largest tropical rainforest in the world, spanning over nine countries in South America. Covering approximately 5.5 million square kilometers, this incredible ecosystem is renowned for its unparalleled biodiversity and vital role in maintaining the planet's ecological balance. It's home to an astonishing variety of plant and animal species, including jaguars, sloths, toucans, and countless species yet to be discovered. The forest also houses thousands of indigenous communities, each with their unique traditions, languages, and profound connections to the land. Its dense canopy and meandering waterways, such as the Amazon River, have captured the imagination of explorers and scientists for centuries.</p>
+            </div>
+        </div>
+    </section>
+    
+    <hr>
+    
+    <section id="ritual-info">
+        <div class="section-container">
+            <h2>Ritualistic Envenomation by Bullet Ants</h2>
+
+                <img src="ritual.jpg" alt="Sateré-Mawé Ritual">
+                <p>Among the Sateré-Mawé Indians in the Brazilian Amazon, a traditional rite of passage involves being stung by bullet ants. This remarkable initiation ritual, known as the "bullet ant glove" or "ritualistic envenomation," is a testament to the community's deep cultural heritage and their harmonious relationship with the rainforest. Young boys from the tribe, typically between the ages of 12 and 15, partake in this test of courage. The ritual begins by weaving gloves from leaves and then capturing bullet ants, which are sedated and placed inside the gloves. When the ants awaken and become agitated, the initiation begins. The boys slip their hands into the gloves and endure multiple stings from these formidable insects. The bullet ant's sting is considered one of the most painful insect stings, causing excruciating pain that can last for hours. It is a remarkable demonstration of strength, resilience, and the enduring bond between the Sateré-Mawé people and the Amazon rainforest.</p>
+            </div>
+        </div>
+    </section>
+    
+    <style>
+        .section-container {
+            text-align: center;
+        }
+    
+        .image-container {
+            display: flex;
+            align-items: center;
+        }
+    
+        .image-container img {
+            width: 300px; /* Adjust the size as needed */
+            margin-right: 20px; /* Add spacing between the image and text */
+        }
+    
+        /* Clearfix to prevent text from wrapping around the images */
+        .image-container::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    
+        .right-image {
+            float: right;
+        }
+    </style>
+    
+
+
+    <footer>
+        <p>&copy; Fall 2023 Abdallah Qureshi</p>
+        <p>Rutgers University - World of Insects</p>
+    </footer>
+
+</body>
+</html>

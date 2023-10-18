@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History of Bullet Ants - Bullet Ants</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="facts.html">Facts</a></li>
+                <li><a href="map.html">Map</a></li>
+                <li><a href="moreants.html">More Ants</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="sources.html">Sources</a></li>
+            </ul>
+        </nav>
+        <h1 class="header-title">History of Bullet Ants</h1>
+        <p class="header-subtitle">Evolutionary Journey of the Bullet Ant</p>
+    </header>
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Welcome to the rich and fascinating history of bullet ants (Paraponera clavata), some of the most notorious creatures in the Amazon rainforest. These formidable insects have a storied past, intertwined with indigenous cultures, scientific discovery, and a reputation for having the most painful sting of any insect.</p>
+    </section>
+
+    <section id="early-discovery">
+        <h2>Early Discovery</h2>
+        <p>The history of bullet ants dates back centuries when indigenous tribes in the Amazon rainforest had first-hand experiences with these formidable insects. The ant's powerful sting was a common feature of initiation rituals within these tribes, demonstrating the immense pain and resilience required for these rites of passage.</p>
+        <p>However, the formal scientific discovery of the bullet ant is credited to early naturalists and explorers who ventured into the Amazon. Their accounts of encountering these fearsome ants added to the intrigue surrounding them.</p>
+    </section>
+
+    <section id="scientific-research">
+        <h2>Scientific Research</h2>
+        <p>It wasn't until the 18th and 19th centuries that scientific research into bullet ants began in earnest. Naturalists, such as Carl Linnaeus and Alexander von Humboldt, provided valuable insights into the taxonomy, behavior, and biology of these insects.</p>
+        <p>Modern scientific research has shed light on the chemistry of bullet ant venom, its ecological role, and the evolutionary history of these ants. Their solitary nature, complex mating systems, and foraging strategies continue to captivate entomologists and ecologists.</p>
+    </section>
+
+    <section id="cultural-significance">
+        <h2>Cultural Significance</h2>
+        <p>Bullet ants are deeply woven into the cultural fabric of the Amazon. Various indigenous tribes revere these ants as symbols of strength and courage. The ant's stings feature prominently in tribal rituals and ceremonies, symbolizing the transition from childhood to adulthood.</p>
+        <p>While Western science has focused on the pain caused by their stings, indigenous cultures recognize the ant's unique place in their traditions, folklore, and cosmology.</p>
+    </section>
+
+    <section id="ecosystem-role">
+        <h2>Role in the Ecosystem</h2>
+        <p>Despite their fearsome reputation, bullet ants play a crucial role in the Amazon rainforest's ecosystem. They are efficient predators, preying on smaller insects and invertebrates, helping to control pest populations.</p>
+        <p>Additionally, bullet ants serve as pollinators for some rainforest plants, further contributing to the ecosystem's biodiversity.</p>
+    </section>
+
+    <section id="recent-scientific-discoveries">
+        <h2>Recent Scientific Discoveries</h2>
+        <p>Modern scientific research has unveiled new facets of bullet ant behavior and biology. Recent studies have revealed their intricate communication methods using pheromones and vibrations, allowing them to coordinate foraging activities.</p>
+        <p>Furthermore, researchers have uncovered the molecular mechanisms behind the intense pain caused by their stings, opening new avenues for pain research and potential medical applications.</p>
+    </section>
+
+    <footer>
+        <p>&copy; Fall 2023 Abdallah Qureshi</p>
+        <p>Rutgers University - World of Insects</p>
+    </footer>
+    <script src="script.js"></script>
+
+
+    <script>
+        // Get the current page's filename (e.g., "history.html" or "index.html").
+        const currentPage = location.pathname.split('/').slice(-1)[0];
+    
+        // Define a function to highlight the active link.
+        function highlightActiveLink() {
+            const navLinks = document.querySelectorAll('nav ul li a');
+            navLinks.forEach((link) => {
+                if (link.getAttribute('href') === currentPage) {
+                    link.classList.add('active'); // You can define this class in your CSS.
+                }
+            });
+        }
+    
+        // Call the function to highlight the active link.
+        highlightActiveLink();
+    </script>
+</body>
+</html>

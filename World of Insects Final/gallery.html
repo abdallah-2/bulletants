@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Bullet Ants</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="facts.html">Facts</a></li>
+                <li><a href="map.html">Map</a></li>
+                <li><a href="moreants.html">More Ants</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="sources.html">Sources</a></li>
+            </ul>
+        </nav>
+        <h1 class="header-title">Image Gallery</h1>
+        <p class="header-subtitle">Explore Stunning Images of Bullet Ants</p>
+    </header>
+    <section id="image-gallery">
+        <!-- Image Slideshow Container -->
+        <div class="slideshow-container">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <!-- Add your image slides here -->
+            <div class="mySlides fade">
+                <img src="ba1.jpg" alt="Image 1">
+            </div>
+            <div class="mySlides fade">
+                <img src="ba2.jpg" alt="Image 2">
+            </div>
+            <div class="mySlides fade">
+                <img src="ba3.jpg" alt="Image 3">
+            </div>
+            <div class="mySlides fade">
+                <img src="ba4.jpg" alt="Image 4">
+            </div>
+            <div class="mySlides fade">
+                <img src="ba5.jpg" alt="Image 5">
+            </div>
+            <!-- Continue adding images as needed -->
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>        
+    </section>    
+    <section id="video-container" style="text-align: center; border: 10px solid #333; padding: 10px;">
+        <!-- Add a table to control the layout -->
+        <table style="width: 100%; border-collapse: collapse;">
+            <tr>
+                <td style="width: 50%; padding: 10px; background-color: #fff;">
+                    <!-- Left column for video description -->
+                    <h2>Watch Coyote Peterson take on the sting of a bullet ant!</h2>
+                    <p>On this episode of Breaking Trail, Coyote takes on the Bullet Ant Challenge and is STUNG by the most painful insect sting in the world! 
+    
+                    With much ANTicipation surrounding his climb to the top of the insect sting pain index, the moment has finally arrived for Coyote to experience the sting that is said to feel like “being shot by a gun” and last for over 24 hours. 
+    
+                    Will the intensity of the Bullet Ant sting match its legendary status?
+    
+                    Get ready…you’re about to find out!
+                    </p>
+                </td>
+                <td style="width: 50%; padding: 10px;">
+                    <!-- Right column for the YouTube video -->
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/tXjHb5QmDV0?si=LmXLamaZ-5yWLzU-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: none;"></iframe>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="video-container" style="text-align: center; border: 10px solid #333; padding: 10px;">
+        <!-- Add a table to control the layout -->
+        <table style="width: 100%; border-collapse: collapse;">
+            <tr>
+                <td style="width: 50%; padding: 10px;">
+                    <!-- Left column for the YouTube video -->
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/1Ka3hNgR4Qo?si=CU-0k0Z1iOUMaqCf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: none;"></iframe>
+                </td>
+                <td style="width: 50%; padding: 10px; background-color: #fff;">
+                    <!-- Right column for video description -->
+                    <h2>Another Exciting Bullet Ant Adventure</h2>
+                    <p>Deep in the Panama jungle, a nervous Steve Backshall bravely allows a fearsome bullet ant to crawl over his hand. The bullet ant has a very powerful sting, and the experience brings back painful memories for Steve who has felt the full force of their bite before. Can he avoid getting bitten this time?</p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+
+<!-- Add a New Section Below the YouTube Video -->
+<section id="additional-content" style="text-align: center;">
+    <h2>Explore More About Bullet Ants</h2>
+    <p>View more stunning images in Getty Images' gallery.</p>
+    
+    <!-- Button to Link to Additional Photos with margin-top -->
+    <a href="https://www.gettyimages.com/photos/bullet-ant" class="additional-button" style="margin-top: 20px;">Additional Photos</a>
+</section>
+
+<footer style="margin-top: 20px;">
+    <p>&copy; Fall 2023 Abdallah Qureshi</p>
+    <p>Rutgers University - World of Insects</p>
+</footer>
+
+    <script src="script.js"></script>
+
+
+
+    <script>
+        // Get the current page's filename (e.g., "history.html" or "index.html").
+        const currentPage = location.pathname.split('/').slice(-1)[0];
+    
+        // Define a function to highlight the active link.
+        function highlightActiveLink() {
+            const navLinks = document.querySelectorAll('nav ul li a');
+            navLinks.forEach((link) => {
+                if (link.getAttribute('href') === currentPage) {
+                    link.classList.add('active'); // You can define this class in your CSS.
+                }
+            });
+        }
+    
+        // Call the function to highlight the active link.
+        highlightActiveLink();
+    </script>
+</body>
+</html>

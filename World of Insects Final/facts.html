@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facts - Bullet Ants</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="facts.html">Facts</a></li>
+                <li><a href="map.html">Map</a></li>
+                <li><a href="moreants.html">More Ants</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="sources.html">Sources</a></li>
+            </ul>
+        </nav>
+        <h1 class="header-title">Fascinating Facts About Bullet Ants</h1>
+        <p class="header-subtitle">Unlock the Secrets of These Incredible Insects</p>
+    </header>
+    <section id="facts">
+        <h2>Interesting Facts</h2>
+        <ul>
+            <li>1. Bullet ants are known for having one of the most painful insect stings in the world. <a href="https://en.wikipedia.org/wiki/Bullet_ant">[source]</a></li><br><br>
+            
+            <li>2. They are among the largest ant species, with individuals reaching up to 1.2 inches (3 cm) in length. <a href="https://www.nationalgeographic.com/animals/invertebrates/b/bullet-ant/">[source]</a></li><br><br>
+            
+            <li>3. Bullet ants are native to the rainforests of South America, including countries like Brazil, Venezuela, and Colombia. <a href="https://www.nationalgeographic.com/animals/invertebrates/b/bullet-ant/">[source]</a></li><br><br>
+            
+            <li>4. These ants are also known as 24-hour ants due to the duration of pain their stings can cause. <a href="https://www.nationalgeographic.com/animals/invertebrates/b/bullet-ant/">[source]</a></li><br><br>
+            
+            <li>5. They are often referred to as "conga ants" in reference to their stinging behavior, which can cause people to dance as if in a conga line. <a href="https://www.nationalgeographic.com/animals/invertebrates/b/bullet-ant/">[source]</a></li><br><br>
+            
+            <li>6. Bullet ants play a significant role in the pollination of rainforest plants through their foraging activities. <a href="https://www.nationalgeographic.com/animals/invertebrates/b/bullet-ant/">[source]</a></li><br><br>
+            
+            <li>7. Their stingers are not barbed like those of honeybees, allowing them to sting multiple times. <a href="https://en.wikipedia.org/wiki/Bullet_ant">[source]</a></li><br><br>
+            
+            <li>8. Bullet ants are among the few ant species with solitary foragers. Each ant lives and hunts on its own. <a href="https://www.nationalgeographic.com/animals/invertebrates/b/bullet-ant/">[source]</a></li><br><br>
+            
+            <li>9. The venom of bullet ants contains a neurotoxin called poneratoxin, which contributes to the pain of their stings. <a href="https://en.wikipedia.org/wiki/Bullet_ant">[source]</a></li><br><br>
+            
+            <li>10. Their stings can lead to localized swelling, redness, and intense pain that can last for 24 hours or more. <a href="https://www.nationalgeographic.com/animals/invertebrates/b/bullet-ant/">[source]</a></li><br><br>
+            
+            <li>11. Bullet ants are active during the day and are often seen foraging for food and patrolling their territories. <a href="https://en.wikipedia.org/wiki/Bullet_ant">[source]</a></li><br><br>
+            
+            <li>12. The indigenous Sateré-Mawé people of the Amazon Basin use bullet ants in their initiation rituals. Young boys must endure being stung by these ants repeatedly as a rite of passage. <a href="https://www.nationalgeographic.com/animals/invertebrates/b/bullet-ant/">[source]</a></li><br><br>
+            
+            <li>13. Their powerful mandibles are used to capture prey, and they have a preference for nectar and tree sap. <a href="https://www.nationalgeographic.com/animals/invertebrates/b/bullet-ant/">[source]</a></li><br><br>
+            
+            <li>14. Bullet ants are excellent climbers and are often found foraging on trees and vegetation. <a href="https://en.wikipedia.org/wiki/Bullet_ant">[source]</a></li><br><br>
+            
+            <li>15. They are known for their distinctive and robust appearance, making them easy to identify in the wild. <a href="https://www.nationalgeographic.com/animals/invertebrates/b/bullet-ant/">[source]</a></li><br><br>
+            
+            <li>16. Bullet ants have a prominent role in the ecological balance of the rainforest by controlling insect populations. <a href="https://en.wikipedia.org/wiki/Bullet_ant">[source]</a></li><br><br>
+            
+            <li>17. These ants are often seen patrolling their territories to defend them against intruders. <a href="https://en.wikipedia.org/wiki/Bullet_ant">[source]</a></li><br><br>
+            
+            <li>18. Bullet ants are known for their distinctive coloration, with dark reddish-brown bodies. <a href="https://en.wikipedia.org/wiki/Bullet_ant">[source]</a></li><br><br>
+            
+            <li>19. Their stingers are not barbed like those of honeybees, allowing them to sting multiple times. <a href="https://en.wikipedia.org/wiki/Bullet_ant">[source]</a></li><br><br>
+            
+            <li>20. Despite their fearsome reputation, bullet ants are an essential part of the rainforest ecosystem, contributing to its balance. <a href="https://www.nationalgeographic.com/animals/invertebrates/b/bullet-ant/">[source]</a></li><br><br>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; Fall 2023 Abdallah Qureshi</p>
+        <p>Rutgers University - World of Insects</p>
+    </footer>
+
+
+    <script>
+
+        const currentPage = location.pathname.split('/').slice(-1)[0];
+    
+        // Define a function to highlight the active link.
+        function highlightActiveLink() {
+            const navLinks = document.querySelectorAll('nav ul li a');
+            navLinks.forEach((link) => {
+                if (link.getAttribute('href') === currentPage) {
+                    link.classList.add('active'); // You can define this class in your CSS.
+                }
+            });
+        }
+    
+        // Call the function to highlight the active link.
+        highlightActiveLink();
+    </script>
+</body>
+</html>
